@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 	return (
+		<main>
+		<div className='ip-div'>
+				<img src="ip1.svg" alt="ip logo" className='ip-logo' />
+			</div>
+			<hr />
 		<nav>
 			<ul>
 				<li>
@@ -17,8 +22,11 @@ const NavBar = () => {
 				<li>
 					<Link to="/nature">Nature</Link>
 				</li>
-			</ul>
-		</nav>
+				</ul>
+				
+			</nav>
+		
+		</main>
 	);
 };
 

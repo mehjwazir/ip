@@ -28,3 +28,13 @@ ul li a:hover {
 ul li a.active {
 	color:green;
 }
+
+.ip-div {
+		/* padding: 15px 20px; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+}
+.ip-logo {
+	width: 10%;
+}
