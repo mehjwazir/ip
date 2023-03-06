@@ -3,7 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './pages/Home';
 import Inner from './pages/Inner/Inner';
-import Inner from './pages/Outer/Outer';
+import Outer from './pages/Outer/Outer';
+import Nature from './pages/Nature/Nature';
 
 
 function App() {
