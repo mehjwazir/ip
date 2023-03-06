@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Inner" element={<Inner />} />
           <Route path="/Outer" element={<Outer />} />
+          <Route path="/Nature" element={<Nature />} />
       </Routes>
 
 
