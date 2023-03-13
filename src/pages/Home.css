@@ -16,3 +16,27 @@ margin-bottom: 3rem;
 	
 	}
 }
+
+
+
+
+
+.book {
+
+	height: 50%;
+	width: 50%;
+	display: flex;
+		border-right: 1px solid rgba(27, 44, 19, .6);
+	/* justify-content: left; */
+
+}
+
+
+
+@media (min-width: 1025px) {
+	.sidebar {
+			width: calc((100%) * 18 / 12);
+				padding-left: calc(40px * 2);
+				padding-left: 0;
+	}
+}
