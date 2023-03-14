@@ -1,6 +1,6 @@
 import './Inner.css'
 import { useState } from 'react';
-import styled from "styled-components";
+import styled from 'styled-components';
 import ReactPlayer from 'react-player';
 import Img from './files/inner.png'
 import Vid from './files/IP17.2.mp4'

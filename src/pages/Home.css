@@ -1,10 +1,8 @@
 .tree {
-margin-top: 2rem;
-height: 30%;
-width: 30%;
-margin-bottom: 3rem;
-
-/* border-right: 1px solid rgba(27, 44, 19, .6); */
+	margin-top: 2rem;
+	height: 30%;
+	width: 30%;
+	margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -13,39 +11,46 @@ margin-bottom: 3rem;
 		border-right: 1px solid rgba(27, 44, 19, .6);
 		padding: 20px;
 		height: 6rem;
-	
+
 	}
-}
-
-
-
-
-
-.book {
-
-	height: 100%;
-	width: 100%;
-
-	border-right: 1px solid rgba(27, 44, 19, .6); 
-
-
 }
 
 
 
 .row {
 	display: flex;
+	margin-top: 9rem;
 }
 
 .column {
 	flex: 50%;
 }
 
-.col2 {
-	padding: 30px;
+.book {
+	height: 100%;
+	width: 100%;
+	border-right: 1px solid rgba(27, 44, 19, .6);
 }
 
 
+.col1 {
+	padding: 30px;
+}
+
+button {
+	margin-top: 3rem;
+	padding: 10px;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	background-color: #fdfbf4;
+	border: 1px solid;
+
+}
+
+button:hover {
+	background-color: black;
+	color: #fdfbf4;
+}
 @media screen and (max-width: 768px) {
 	.row {
 		flex-direction: column;
@@ -55,22 +60,41 @@ margin-bottom: 3rem;
 		flex: 100%;
 	}
 
+	.col1 {
+		padding: 20px;
+	}
+
+	.row2 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	.col2 {
+		flex: 1;
 		padding: 10px;
 	}
-}
 
-.row2 {
-	margin-top: 7rem;
-}
+	.co2 {
+		order: 2;
+	}
 
-.center {
-height: 100%;
-width: 100%;
-border-left: 1px solid rgba(27, 44, 19, .6);
+	.col2:first-child {
+		order: 1;
+	}
 }
 
 .grass {
 	height: 10%;
 	width: 100%;
+}
+
+.col2 {
+	padding: 30px;
+}
+
+.center {
+	height: 100%;
+	width: 100%;
+	margin-top: 0;
+	border-left: 1px solid rgba(27, 44, 19, .6);
 }
