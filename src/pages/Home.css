@@ -81,6 +81,10 @@ button:hover {
 	.col2:first-child {
 		order: 1;
 	}
+	
+	button {
+		width: 25rem;
+	}
 }
 
 .grass {
@@ -97,4 +101,13 @@ button:hover {
 	width: 100%;
 	margin-top: 0;
 	border-left: 1px solid rgba(27, 44, 19, .6);
+}
+
+.hay {
+	height: 10%;
+	width: 100%;
+}
+
+.lastdiv {
+	padding: 0 80px 0 80px;
 }

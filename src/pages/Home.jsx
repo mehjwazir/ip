@@ -51,6 +51,16 @@ function Home() {
 					<img src="center.png" alt="center" className='center' />
 				</div>
 			</div>
+			<div>
+				<img src="hay.png" alt="hay" className='hay'/>
+			</div>
+			<div>
+				<h1>Navigating through obstacles</h1>
+				<p className='lastdiv'>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<button className='btn2'>Read More</button>
+			</div>
 		</main>
 	)
 
