@@ -7,6 +7,7 @@ import Inner from './pages/Inner/Inner';
 import Outer from './pages/Outer/Outer';
 import Nature from './pages/Nature/Nature';
 import Quotes from './pages/Quotes/Quotes';
+import Water from './pages/Nature/Water/Water';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Outer" element={<Outer />} />
           <Route path="/Nature" element={<Nature />} />
           <Route path="/Quotes" element={<Quotes />} />
+          <Route path="/Water" element={<Water />} />
         </Routes>
         <Footer />
 

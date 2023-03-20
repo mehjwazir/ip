@@ -1,4 +1,5 @@
 import './Nature.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -17,7 +18,9 @@ function Nature() {
 				<li>Earth</li>
 				<li>Air</li>
 				<li>Fire</li>
-				<li>Water</li>
+					<li>
+						<Link to="/water">Water</Link>
+					</li>
 					
 				</ol>
 			</div>
