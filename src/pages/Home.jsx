@@ -14,6 +14,11 @@ function Home() {
 				<p className='test'>
 			<a href="/Quotes">Quotes</a>
 				</p>
+				<div>
+					<p>
+						<a href="/Elements">Elements</a>
+					</p>
+				</div>
 			</div>
 			<hr />
 			<div>

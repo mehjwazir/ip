@@ -6,15 +6,19 @@ import Img from './files/outer.png'
 function Outer() {
 
 	return (
-		<main>
+		<main className='main-outer'>
 			<div>
 				<img
 					src={Img}
 					alt="outer" />
 			</div>
 			<div>
-				<h1>The Outer is as important as the Inner</h1>
-				<h3>Body</h3>
+				<h1>Outer</h1>
+			</div>
+			<div>
+				<p className='outer-p'>
+					Your outer reality is always a reflection of your inner world.
+				</p>
 			</div>
 	 </main>
 
