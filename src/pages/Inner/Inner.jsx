@@ -14,41 +14,44 @@ function Inner() {
 		setIsVideoLoaded(true);
 	}
 
-	
-	return (
-		<div className='Inner'>
-			<Container>
-				<img
-					src={Img}
-					className="ip-video tiny"
-					alt="video"
-					style={{ opacity: isVideoLoaded ? 0 : 1 }}
-				/>
 
-				<div style={{ opacity: isVideoLoaded ? 1 : 0 }}>
-				
-					<ReactPlayer
-						url={Vid}
-						playing={true}
-						controls={true}
-						loop={true}
-						muted={true}
-						playsinline={true}
-						onReady={onLoadedData}
-						width={1820}
-						height={1000}
-					
+	return (
+		<main>
+			<div className='Inner'>
+				<Container>
+					<img
+						src={Img}
+						className="ip-video tiny"
+						alt="video"
+						style={{ opacity: isVideoLoaded ? 0 : 1 }}
 					/>
 
-				</div>
-			</Container>
+					<div style={{ opacity: isVideoLoaded ? 1 : 0 }}>
+
+						<ReactPlayer
+							url={Vid}
+							playing={true}
+							controls={true}
+							loop={true}
+							muted={true}
+							playsinline={true}
+							onReady={onLoadedData}
+							width={1820}
+							height={1000}
+
+						/>
+
+					</div>
+				</Container>
+			</div>
+
 
 			<div>
 				<h1>Finding Inner Peace</h1>
-				<p className='innertext'>
-					Finding inner peace can be a personal and unique journey, but there are some general steps that can help guide you in the right direction. One of the first steps is to practice mindfulness and self-awareness. This can involve taking time to reflect on your thoughts, emotions, and behaviors, and becoming more aware of how they impact your overall sense of well-being. It can also be helpful to engage in activities that promote relaxation and stress reduction, such as meditation, yoga, or spending time in nature. Another key aspect of finding inner peace is cultivating a positive and compassionate mindset, which involves letting go of negative self-talk and focusing on gratitude and self-acceptance. Finally, building and maintaining positive relationships with others can also contribute to a sense of inner peace, as it fosters a sense of connection and belonging.
+				<p className='inner-text'>
+					Finding <em>inner peace</em> can be a personal and unique journey, but there are some general steps that can help guide you in the right direction. One of the first steps is to practice mindfulness and self-awareness. This can involve taking time to reflect on your thoughts, emotions, and behaviors, and becoming more aware of how they impact your overall sense of well-being. It can also be helpful to engage in activities that promote relaxation and stress reduction, such as meditation, yoga, or spending time in nature. Another key aspect of finding inner peace is cultivating a positive and compassionate mindset, which involves letting go of negative self-talk and focusing on gratitude and self-acceptance. Finally, building and maintaining positive relationships with others can also contribute to a sense of inner peace, as it fosters a sense of connection and belonging.
 				</p>
-			
+
 			</div>
 
 			<div>
@@ -68,12 +71,10 @@ function Inner() {
 					To overcome this, we need to be mindful of when we have the feeling that we need something before we can be happy. When we see we’re doing this we can practice letting go of that need, even if only for a brief moment. The more capable we become at doing so, the more we will naturally experience happiness in the present, and the less our minds will fixate on ideas of the future for fulfillment.
 				</p>
 			</div>
-			<div>
 
-			</div>
-		</div>
-		
-		
+
+		</main>
+
 	);
 }
 
