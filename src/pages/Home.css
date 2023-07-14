@@ -1,18 +1,16 @@
-.tree {
-margin-top: 2rem;
-height: 30%;
-width: 30%;
-margin-bottom: 3rem;
 
-/* border-right: 1px solid rgba(27, 44, 19, .6); */
+.image-container {
+	align-items: center;
+	float: left;
+	display: flex;
 }
 
-@media (min-width: 768px) {
-	.homepage-lower-container {
-		width: 50vw;
-		border-right: 1px solid rgba(27, 44, 19, .6);
-		padding: 20px;
-		height: 6rem;
+.image{
+	float: left;
 	
-	}
+}
+
+.img1,.img2 {
+	height: 100%;
+	width: 100%;
 }
