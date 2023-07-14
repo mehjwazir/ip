@@ -1,4 +1,4 @@
-import './Inner.css'
+import './Mind.css'
 import { useState } from 'react';
 import styled from "styled-components";
 import ReactPlayer from 'react-player';
@@ -7,7 +7,7 @@ import Vid from './files/IP17.2.mp4'
 
 
 
-function Inner() {
+function Mind() {
 
 	const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 	const onLoadedData = () => {
@@ -74,4 +74,4 @@ align-items: center;
 
 
 
-export default Inner;
+export default Mind;

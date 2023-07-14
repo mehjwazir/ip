@@ -4,23 +4,22 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 	return (
 		<main>
-		<div className='ip-div'>
-				<img src="ip1.svg" alt="ip logo" className='ip-logo' />
-			</div>
-			<hr />
-		<nav>
+		<nav className='navbar'>
 			<ul>
 				<li>
-					<Link to="/">Home</Link>
+					<Link to="/">Inner Peace</Link>
 				</li>
 				<li>
-					<Link to="/inner">Inner</Link>
+					<Link to="/mind">Mind</Link>
 				</li>
 				<li>
-					<Link to="/outer">Outer</Link>
+					<Link to="/body">Body</Link>
 				</li>
 				<li>
 					<Link to="/nature">Nature</Link>
+				</li>
+				<li>
+					<Link to="/journal">Journal</Link>
 				</li>
 				</ul>
 				

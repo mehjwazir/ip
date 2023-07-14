@@ -1,4 +1,4 @@
-import './Outer.css'
+import './Body.css'
 import Img from './files/outer.png'
 
 
