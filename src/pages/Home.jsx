@@ -5,17 +5,17 @@ function Home() {
 
 	return (
 		<main>
+			<div className='image-container'>
+				<div className="image">
+					<img src="ipmain.jpg" alt="" className='img1' />
+				</div>
+				<div className="image">
+					<img src="ipmain2.JPG" alt="" className='img2' />
+				</div>
+			</div>
 			<div>
-				<img class='tree' src="tree.png" alt="line art" />	
+				<img src="ipmain3.JPG" alt="" className='img3' />
 			</div>
-			<hr />
-
-			<div className='homepage-lower-container'>
-				<p className='test'>
-				Quotes
-				</p>
-			</div>
-			<hr />
 		</main>
 	)
 
