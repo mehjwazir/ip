@@ -30,3 +30,24 @@
 	width: 100%;
 	padding: 2rem;
 }
+
+.img3-paragraph {
+	padding: 10rem;
+	display: flex;
+
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Change to a vertical layout */
+  }
+
+  .img3-div {
+    margin-right: 0; /* Remove the right margin */
+  }
+
+  .img3-paragraph {
+    margin-top: 1rem; /* Add some space between the paragraph and img3 */
+	padding: 50px;
+  }
+}
