@@ -13,6 +13,9 @@ function Home() {
 					<img src="ipmain2.JPG" alt="" className='img2'/>
 				</div>
 			</div>
+			<div>
+				<img src="ipmain3.JPG" alt="" className='img3'/>
+			</div>
 		
 
 	
