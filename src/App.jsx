@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Mind from './pages/Mind/Mind';
 import Body from './pages/Body/Body';
@@ -20,8 +20,8 @@ function App() {
         <Route path="/nature" element={<Nature />} />
         <Route path="/journal" element={<Journal />} />
       </Routes>
-      <Footer />
     </>
+
   );
 }
 
