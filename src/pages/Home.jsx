@@ -13,7 +13,7 @@ function Home() {
 					<img src="ipmain2.JPG" alt="" className='img2' />
 				</div>
 			</div>
-			<div>
+			<div className='img3-div'>
 				<img src="ipmain3.JPG" alt="" className='img3' />
 			</div>
 		</main>

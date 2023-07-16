@@ -14,3 +14,19 @@
 	height: 100%;
 	width: 100%;
 }
+
+.img3-div {
+	float: right;
+	display: flex;
+	align-items: center;
+	margin-top: 5rem;
+	margin-right: 3rem;
+	
+	
+}
+
+.img3 {
+	height: 100%;
+	width: 100%;
+	padding: 2rem;
+}
