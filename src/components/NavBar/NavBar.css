@@ -1,24 +1,30 @@
 
-nav {
-	display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 100%;
-}
+/* .navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  color: white;
+  transition: background-color 0.3s ease;
+} */
 
 
-ul {
+
+ ul {
 	list-style-type: none;
 	padding: 1rem;
 	margin: 1rem;
 	display: flex;
 	align-items: center;
-	margin-right: 1rem;
+
 }
 
 ul li a {
 	color: #000;
 	margin: 1rem;
+	text-decoration: none;
 }
 
 ul li a:hover {
@@ -27,14 +33,11 @@ ul li a:hover {
 
 ul li a.active {
 	color:green;
-}
 
-.ip-div {
-		/* padding: 15px 20px; */
-			display: flex;
-			justify-content: center;
-			align-items: center;
-}
-.ip-logo {
-	width: 10%;
+	
+} 
+
+a:hover {
+	text-decoration: underline;
+	
 }
