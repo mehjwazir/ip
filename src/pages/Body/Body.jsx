@@ -1,4 +1,4 @@
-import './Body.css'
+import './Body.css';
 
 
 
@@ -7,7 +7,7 @@ function Body() {
 
 	return (
 		<main>
-
+			<h1>Body</h1>
 		</main>
 
 	)
