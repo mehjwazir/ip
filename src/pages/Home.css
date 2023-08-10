@@ -39,6 +39,7 @@ main {
 .img3-paragraph {
 	padding: 5rem;
 	display: flex;
+	justify-content: center;
 
 }
 
@@ -60,10 +61,12 @@ main {
 
   .img3-div {
     margin-right: 0; /* Remove the right margin */
+
   }
 
   .img3-paragraph {
     margin-top: 1rem; /* Add some space between the paragraph and img3 */
 	padding: 50px;
+	display: flex;
   }
 }

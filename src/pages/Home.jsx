@@ -28,6 +28,7 @@ function Home() {
 					<img src="ipmain5.JPG" alt="" className='img5' />
 				</div>
 			</div>
+			{/* Add next section, footer, and follow figma design. Finish by end of month whole site. */}
 		</main>
 	)
 
