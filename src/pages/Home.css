@@ -1,21 +1,29 @@
-main {
+.ip-main {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
-.image-container {
+
+/* .image-container {
 	align-items: center;
 	float: left;
 	display: flex;
+} */
+
+.small-screen-image {
+	display: none;
+}
+
+.img1 {
+	height: 100%;
+	width: 100%;
 }
 
 
-.image{
-	float: left;
-	
-}
 
-.img1,.img2, .img4, .img5 {
+.img2,
+.img4,
+.img5 {
 	height: 100%;
 	width: 100%;
 }
@@ -26,8 +34,8 @@ main {
 	align-items: center;
 	margin-top: 5rem;
 	margin-right: 3rem;
-	
-	
+
+
 }
 
 .img3 {
@@ -45,28 +53,66 @@ main {
 
 
 
-
-
 .img4-5-div {
-	margin-top: 6rem;	
+	margin-top: 6rem;
 }
 
 
 
 
+.row-img {
+	height: 25%;
+	width: 25%;
+	margin: 7rem 5rem 5rem 5rem;
+}
+
+
+
 @media (max-width: 768px) {
-  .image-container {
-    flex-direction: column; /* Change to a vertical layout */
-  }
 
-  .img3-div {
-    margin-right: 0; /* Remove the right margin */
 
-  }
+	.large-screen-image {
+		display: none;
+	}
 
-  .img3-paragraph {
-    margin-top: 1rem; /* Add some space between the paragraph and img3 */
-	padding: 50px;
+	.small-screen-image {
+		display: block;
+		height: auto;
+		width: 100%;
+
+	}
+
+
+	.image-container {
+		flex-direction: column;
+		/* Change to a vertical layout */
+	}
+
+	.img3-div {
+		margin-right: 0;
+		/* Remove the right margin */
+
+	}
+
+	.img3-paragraph {
+		margin-top: 1rem;
+		/* Add some space between the paragraph and img3 */
+		padding: 50px;
+		display: flex;
+	}
+
+
+.row-div {
+	align-items: center;
 	display: flex;
-  }
+	flex-direction: column;
+}
+
+	.row-img {
+		height: 50%;
+		width: 50%;
+		margin: 5rem;
+
+	}
+
 }

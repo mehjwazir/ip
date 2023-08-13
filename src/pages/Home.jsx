@@ -4,14 +4,13 @@ import './Home.css';
 function Home() {
 
 	return (
-		<main>
-			<div className='image-container'>
-				<div className="image">
-					<img src="ipmain.jpg" alt="" className='img1' />
+		<main className='ip-main'>
+			<div className=''>
+				<div className="home-image">
+					<img src="ipmain.png" alt="" className='img1 large-screen-image' />
+					<img src="ipmain.jpg" alt="" className='img-small small-screen-image' />
 				</div>
-				<div className="image">
-					<img src="ipmain2.jpg" alt="" className='img2' />
-				</div>
+
 			</div>
 			<div className='img3-div image-container'>
 				<p className='img3-paragraph'>
@@ -20,15 +19,17 @@ function Home() {
 				</p>
 				<img src="ipmain3.JPG" alt="" className='img3' />
 			</div>
-			<div className='image-container img4-5-div'>
-				<div className="image">
-					<img src="ipmain4.JPG" alt="" className='img4' />
-				</div>
-				<div className="image">
-					<img src="ipmain5.JPG" alt="" className='img5' />
-				</div>
+			<div className='img4-5-div'>
+
+				<img src="ip45.png" alt="" className='img4' />
+
+
 			</div>
-			{/* Add next section, footer, and follow figma design. Finish by end of month whole site. */}
+			<div className='row-div'>
+				<img src="ipmain6.jpg" alt="" className='row-img' />
+				<img src="ipmain7.jpg" alt="" className='row-img' />
+				<img src="ipmain8.jpg" alt="" className='row-img' />
+			</div>
 		</main>
 	)
 
