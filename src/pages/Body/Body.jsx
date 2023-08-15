@@ -6,7 +6,7 @@ import './Body.css';
 function Body() {
 
 	return (
-		<main>
+		<main className='main-body'>
 			<h1>Body</h1>
 		</main>
 

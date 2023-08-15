@@ -3,7 +3,7 @@ import './Nature.css';
 
 function Nature() {
 	return (
-		<main>
+		<main className='main-nature'>
 			<h1>Nature</h1>
 		</main>
 	)
