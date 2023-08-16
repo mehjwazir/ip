@@ -12,8 +12,8 @@
 }
 
 .img1-mind {
-	height: 50%;
-	width: 60%;
+	height: auto;
+	width: auto;
 }
 
 .mind-h1 {
@@ -36,7 +36,7 @@ margin-top: 3rem;
 
 .img2-mind {
 	height: auto;
-	width: 50%;
+	width: auto;
 	margin-top: 7rem;
 }
 
