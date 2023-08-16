@@ -13,17 +13,46 @@
 
 .img1-mind {
 	height: 50%;
-	width: 50%;
+	width: 60%;
 }
 
 .mind-h1 {
 font-family: 'Inter',
 sans-serif;
 font-size: 40px;
-margin-top: 7rem;
+color: gray;
+margin-top: 9rem;
 }
 .mind-p {
 font-family: 'IM Fell Double Pica',
 serif;
-font-size: 20px;
+font-size: 40px;
+margin-top: 3rem;
+}
+
+.italic{
+	font-style: italic;
+}
+
+@media (max-width: 768px) {
+
+	.img1-mind {
+		height: 60%;
+		width: 80%;
+	}
+
+	.mind-h1 {
+		font-family: 'Inter',
+			sans-serif;
+		font-size: 40px;
+		margin-top: 9rem;
+		padding: 1rem;
+	}
+	.mind-p {
+		font-family: 'IM Fell Double Pica',
+			serif;
+		font-size: 27px;
+		margin-top: 3rem;
+		padding: 1rem;
+	}
 }
