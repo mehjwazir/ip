@@ -1,5 +1,6 @@
 import './Mind.css'
 import Img1 from "./files/img1.png"
+import Img2 from "./files/img2.JPG"
 
 
 
@@ -19,6 +20,9 @@ function Mind() {
 					<span className='italic'>Scenic</span> Routes. Making Space for Better Things. <br />
 					Warm Nights. <span className='italic'>Heartfelt </span> Conversations. 
 				</p>
+			</div>
+			<div>
+				<img src={Img2} alt="" className='img2-mind' />
 			</div>
 		</main>
 	)

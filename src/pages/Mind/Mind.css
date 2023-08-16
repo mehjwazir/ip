@@ -34,6 +34,12 @@ margin-top: 3rem;
 	font-style: italic;
 }
 
+.img2-mind {
+	height: auto;
+	width: 50%;
+	margin-top: 7rem;
+}
+
 @media (max-width: 768px) {
 
 	.img1-mind {
@@ -54,5 +60,10 @@ margin-top: 3rem;
 		font-size: 27px;
 		margin-top: 3rem;
 		padding: 1rem;
+	}
+	.img2-mind {
+		height: auto;
+		width: 80%;
+		margin-top: 7rem;
 	}
 }
