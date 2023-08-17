@@ -11,10 +11,12 @@ const NavBar = () => {
 		<main>
 
 			<nav className='navbar'>
+			
 				<ul>
-					<li>
+					<li >
 						<Link to="/">Inner Peace</Link>
 					</li>
+				
 					<li className="dropdown">
 						<Link className='discover-pointer'>Discover</Link>	
 						<div className="dropdown-content">
@@ -39,6 +41,7 @@ const NavBar = () => {
 					</li>
 
 				</ul>
+			
 			</nav>
 
 
