@@ -1,15 +1,28 @@
-
-
-.navbar {
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5rem;
+	position: fixed;
+	background-color: #fdfbf4;
+	width: 100%;
+	top: 0;
+	right: 0;
+}
+/* 
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #fdfbf4;
 	width: 100%;
 	top: 0;
 	right: 0;
 	position: fixed;
-	/* z-index: 1000; */
-}
 
-.navbar ul {
+} */
+
+ ul {
 	list-style-type: none;
 	margin: 2rem;
 	padding: 1rem;
@@ -17,13 +30,13 @@
 	align-items: center;
 }
 
-.navbar li {
+li {
 	margin-right: 20px;
 	display: flex;
 }
 
-.navbar a {
-	color: black;
+a {
+color: black;
 	text-decoration: none;
 }
 
@@ -44,9 +57,8 @@
     position: absolute;
     background-color: #fdfbf4;
     min-width: 100%;
-  
-
 }
+
 
 .dropdown:hover .dropdown-content {
    display: flex;
@@ -94,11 +106,22 @@
 
 
 
+/* Add this media query to hide desktop-nav on smaller screens */
+ @media screen and (max-width: 992px) {
+	.desktop-nav {
+		display: none;
+		
+	}
 
+ } 
 
+	@media screen and (max-width: 600px) {
+	.desktop-nav {
+	display: none;
+	content: hidden;
+	}
 
-
-
+	}
 
 
 /* 

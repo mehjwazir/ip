@@ -1,5 +1,7 @@
-import './NavBar.css';
+import React, {useState, useEffect, useRef} from 'react';
 import { Link } from "react-router-dom";
+import SideBar from "../SideBar/SideBar";
+import './NavBar.css';
 import Img1 from './files/img1.JPG'
 import Img2 from './files/img2.JPG'
 import Img3 from './files/img3.jpg'
@@ -7,13 +9,61 @@ import Img4 from './files/img4.jpg'
 
 
 const NavBar = () => {
-	return (
-		<main>
+	const [isMobile, setIsMobile] = useState(false);
+	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+	const navRef = useRef(null);
 
-			<nav className='navbar'>
+
+
+		// this code determines the window size and adjusts the hamburger menu accordingly as well as closes it
+		useEffect(() => {
+			const handleResize = () => {
+				setIsMobile(window.innerWidth <= 1024);
+				setIsSidebarOpen(false); // close sidebar on resize
+			};
+
+			window.addEventListener("resize", handleResize);
+
+			// Call handleResize initially to set the initial value
+			handleResize();
+
+			// Clean up event listener on unmount
+			return () => window.removeEventListener("resize", handleResize);
+		}, []);
+
+	// this code helps close the slider menu when clicked outside on any page
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (navRef.current && !navRef.current.contains(event.target)) {
+				setIsSidebarOpen(false);
+			}
+		};
+
+		document.addEventListener("click", handleClickOutside);
+
+		// Clean up event listener on unmount
+		return () => document.removeEventListener("click", handleClickOutside);
+	}, [navRef], [isMobile]);
+
+
+	const handleSidebarToggle = () => {
+		setIsSidebarOpen((prevState) => !prevState);
+	};
+
+
+
+
+
+
+
+
+	return (
+	<header>
+
+			<nav ref={navRef}>
 			
-				<ul>
-					<li >
+				<ul className={`desktop-nav a${isMobile || isSidebarOpen ? "hidden" : ""}`}>
+					<li>
 						<Link to="/">Inner Peace</Link>
 					</li>
 				
@@ -41,11 +91,23 @@ const NavBar = () => {
 					</li>
 
 				</ul>
+				{isMobile && (
+					<div
+						className="hamburger-menu"
+						onClick={handleSidebarToggle}
+						aria-label="Toggle navigation menu"
+					>
+						<div className="hamburger-line"></div>
+						<div className="hamburger-line"></div>
+						<div className="hamburger-line"></div>
+					</div>
+				)}
+				{isSidebarOpen && <SideBar />}
 			
 			</nav>
 
 
-		</main>
+		</header>
 	);
 };
 
