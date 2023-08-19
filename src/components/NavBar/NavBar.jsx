@@ -11,6 +11,7 @@ import Img4 from './files/img4.jpg'
 const NavBar = () => {
 	const [isMobile, setIsMobile] = useState(false);
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+	const [setIsDropdownOpen] = useState(false);
 	const navRef = useRef(null);
 
 
@@ -70,19 +71,19 @@ const NavBar = () => {
 					<li className="dropdown">
 						<Link className='discover-pointer'>Discover</Link>	
 						<div className="dropdown-content">
-							<Link to="/mind">
+							<Link to="/mind" onClick={() => setIsDropdownOpen(false)}>
 								<img src={Img1} alt="Mind" />
 								Mind
 							</Link>
-							<Link to="/body">
+							<Link to="/body" onClick={() => setIsDropdownOpen(false)}>
 								<img src={Img2} alt="Body" />
 								Body
 							</Link>
-							<Link to="/nature">
+							<Link to="/nature" onClick={() => setIsDropdownOpen(false)}>
 								<img src={Img3} alt="Nature" />
 								Nature
 							</Link>
-							<Link to="/journal">
+							<Link to="/journal" onClick={() => setIsDropdownOpen(false)}>
 								<img src={Img4} alt="Journal" />
 								Journal
 							</Link>
