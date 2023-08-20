@@ -33,12 +33,26 @@ header {
 li {
 	margin-right: 20px;
 	display: flex;
+	
 }
 
 a {
-color: black;
+	color: black;
 	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	/* Add a transparent border initially */
+	padding-bottom: 8px;
+	/* Adjust this value to control the space between text and underline */
+	transition: .8s ease;
 }
+
+a:hover {
+	color: black;
+	border-bottom-color: black;
+	/* Change the border color on hover */
+	transition: .8s ease;
+}
+
 
 
 .discover-pointer{
@@ -113,6 +127,8 @@ color: black;
 		
 	}
 
+
+
  } 
 
 	@media screen and (max-width: 600px) {
@@ -120,8 +136,25 @@ color: black;
 	display: none;
 	content: hidden;
 	}
+}
 
+
+
+@media (max-width: 768px) {
+	a {
+		border-bottom: none;
+		/* Remove the underline */
+		padding-bottom: 0;
+		/* Remove the padding */
 	}
+
+	a:hover {
+		border-bottom-color: transparent;
+		/* Make the hover underline transparent */
+	}
+}
+
+
 
 
 /* 
