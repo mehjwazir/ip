@@ -31,7 +31,7 @@ function Home() {
 				<img src="ipmain8.jpg" alt="" className='row-img' />
 			</div>
 			<div>
-				<h1>Test1</h1>
+				<h1>Test10</h1>
 			</div>
 		</main>
 	)
