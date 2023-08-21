@@ -30,9 +30,7 @@ function Home() {
 				<img src="ipmain7.jpg" alt="" className='row-img' />
 				<img src="ipmain8.jpg" alt="" className='row-img' />
 			</div>
-			<div>
-				<h1>Test10</h1>
-			</div>
+		
 		</main>
 	)
 
