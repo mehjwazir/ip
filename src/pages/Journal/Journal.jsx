@@ -8,7 +8,7 @@ function Journal() {
 			<h1> Journal</h1>
 			<h3>Coming soon....</h3>
 			<h5>Interactive Personal Notes</h5>
-			<img src={Img1} alt="" />
+			<img src={Img1} alt="" className='img1-journal' />
 		</main>
 	)
 }
