@@ -24,6 +24,9 @@ function Mind() {
 			<div>
 				<img src={Img2} alt="" className='img2-mind' />
 			</div>
+			<div>
+				<p>Add a summary from the documentary blue zones, very inspirational. Also, add to body and nature pages.  </p>
+			</div>
 		</main>
 	)
 }
