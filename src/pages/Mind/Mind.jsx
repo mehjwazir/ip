@@ -7,6 +7,7 @@ import Img2 from "./files/img2.JPG"
 
 function Mind() {
 	return (
+		<>
 		<main className='main-mind'>
 		
 			<div className='div-img1-mind'>
@@ -27,7 +28,8 @@ function Mind() {
 			<div>
 				<p>Add a summary from the documentary blue zones, very inspirational. Also, add to body and nature pages.  </p>
 			</div>
-		</main>
+			</main>
+		</>
 	)
 }
 

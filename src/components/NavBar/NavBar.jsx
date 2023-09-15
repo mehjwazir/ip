@@ -59,7 +59,7 @@ const NavBar = () => {
 
 
 	return (
-	<header>
+
 
 			<nav ref={navRef}>
 			
@@ -108,7 +108,7 @@ const NavBar = () => {
 			</nav>
 
 
-		</header>
+		
 	);
 };
 

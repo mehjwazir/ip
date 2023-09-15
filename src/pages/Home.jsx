@@ -4,6 +4,7 @@ import './Home.css';
 function Home() {
 
 	return (
+		<>
 		<main className='ip-main'>
 			<div className=''>
 				<div className="home-image">
@@ -31,7 +32,8 @@ function Home() {
 				<img src="ipmain8.jpg" alt="" className='row-img' />
 			</div>
 		
-		</main>
+			</main>
+		</>
 	)
 
 }
