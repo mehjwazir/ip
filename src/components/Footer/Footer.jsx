@@ -9,9 +9,10 @@ const Footer = () => {
 				<button>Subscribe</button>
 			</div>
 			<div className="footer-links">
+				<h5>About</h5>
 				<h5>Contact</h5>
-				<h5>Retreats</h5>
-				<h5>Mindful Journal</h5>
+				<h5>Wellness Club</h5>
+				<h5>Journal</h5>
 			</div>
 		</footer>
 	);
