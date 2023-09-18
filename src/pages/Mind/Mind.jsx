@@ -1,6 +1,6 @@
 import './Mind.css'
-import Img1 from "./files/img1.png"
-import Img2 from "./files/img2.JPG"
+import Img1 from "./files/image1.JPG"
+// import Img2 from "./files/img2.JPG"
 
 
 
@@ -22,12 +22,10 @@ function Mind() {
 					Warm Nights. <span className='italic'>Heartfelt </span> Conversations. 
 				</p>
 			</div>
-			<div>
-				<img src={Img2} alt="" className='img2-mind' />
-			</div>
 			{/* <div>
-				<p>Add a summary from the documentary blue zones, very inspirational. Also, add to body and nature pages.  </p>
+				<img src={Img2} alt="" className='img2-mind' />
 			</div> */}
+		
 			</main>
 		</>
 	)
