@@ -1,5 +1,5 @@
 import './Mind.css'
-import Img1 from "./files/image1.JPG"
+import Img1 from "./files/1.png"
 // import Img2 from "./files/img2.JPG"
 
 
@@ -10,7 +10,8 @@ function Mind() {
 		<>
 		<main className='main-mind'>
 		
-			<div className='div-img1-mind'>
+				<div className='div-img1-mind'>
+					{/* <h6 className='h6'>01</h6> */}
 				<img src={Img1} alt="" className='img1-mind'/>
 			</div>
 			<div>
