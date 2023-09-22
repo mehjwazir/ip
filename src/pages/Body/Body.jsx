@@ -9,7 +9,7 @@ function Body() {
 	return (
 		<>
 		<main className='main-body'>
-			<div className='div1'>
+			<div className='body-div'>
 				<img src={Img1} alt="" className='img1-body' />
 			</div>
 			<div>

@@ -1,12 +1,16 @@
 .main-body {
 	text-align: center;
-	margin-bottom: 100rem;
+	margin-top: 3rem;
+}
+
+.body-div{
+	margin-top: 3rem;
 }
 
 .img1-body{
 	margin-top: 7rem;
-	height: 30%;
-	width: 20%;
+	height: 5%;
+	width: 50%;
 }
 
 
