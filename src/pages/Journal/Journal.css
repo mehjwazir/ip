@@ -1,9 +1,10 @@
 .main-journal {
 	text-align: center;
-margin-bottom: 100rem;
+	margin-bottom: 10rem;
 }
 
 .img1-journal {
-	height: 30%;
-	width: 20%;
+	margin-top: 5rem;
+	height: auto;
+	width: 70%;
 }
