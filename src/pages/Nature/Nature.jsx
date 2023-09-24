@@ -1,21 +1,24 @@
 import './Nature.css';
-import Img1 from './files/Img3.png'
-import Img2 from './files/2.JPG'
+import Img1 from './files/1.JPG'
+
 
 function Nature() {
 	return (
 		<>
-			<main className='main-nature'>
+			<main>
+				<header>
+					<img src={Img1} alt="" />
+				</header>
 				<section>
-					<div className='nature-div-1'>
-						<img src={Img1} alt="" className='nature-img1' />
+					<div>
+						<h1>Nature</h1>	
 					</div>
 				</section>
+				<div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia suscipit eum consectetur nesciunt minus, laudantium quibusdam perferendis aperiam odio est distinctio sapiente tempore sed aut praesentium, consequatur dolore? Porro, placeat.</p>
+				</div>
+		</main>
 			
-			<div>
-			<img src={Img2} alt="" className='nature-img2' />
-			</div>
-			</main>
 		</>
 	)
 }

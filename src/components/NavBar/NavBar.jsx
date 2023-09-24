@@ -65,7 +65,7 @@ const NavBar = () => {
 			
 				<ul className={`desktop-nav a${isMobile || isSidebarOpen ? "hidden" : ""}`}>
 					<li>
-						<Link to="/">Inner Peace</Link>
+						<Link className='IP-link' to="/">Inner Peace</Link>
 					</li>
 				
 					<li className="dropdown">

@@ -25,9 +25,13 @@ li {
 	
 }
 
+.IP-link {
+	color: black;
+}
+
 a {
 	color: black;
-	text-decoration: none;
+	text-decoration: none !important;
 	border-bottom: 1px solid transparent;
 	/* Add a transparent border initially */
 	padding-bottom: 8px;

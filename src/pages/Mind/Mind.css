@@ -3,26 +3,14 @@
 
 .main-mind {
 	text-align: center;
-	margin-top: 3rem;
 
 }
 
 
-.div-img1-mind {
-	margin-top: 3rem;
-}
-
-/* .h6 {
-font-size: 2rem;
-display: flex;
-justify-content: right;
-margin-right: 39rem;
-margin-left: 35rem;
-margin-bottom: 2rem;
-} */
 .img1-mind {
-	height: 5%;
+	height:50%;
 	width: 50%;
+	margin-bottom: 4rem;
 }
 
 .mind-h1 {
@@ -30,7 +18,7 @@ font-family: 'Inter',
 sans-serif;
 font-size: 40px;
 color: gray;
-margin-top: 9rem;
+margin-top: 10rem;
 }
 .mind-p {
 font-family: 'IM Fell Double Pica',

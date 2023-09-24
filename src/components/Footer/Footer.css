@@ -1,36 +1,9 @@
-footer {
-	background-color: #AEB4A8;
-	padding: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.newsletter {
-	display: flex;
-	flex-direction: column;
-}
-
-.newsletter input[type="email"] {
-	padding: 5px;
-	margin-bottom: 10px;
-}
-
-.newsletter button {
-	padding: 8px 15px;
-	background-color: gray;
+.main-footer {
 	color: white;
-	border: none;
-	cursor: pointer;
+	background-color: #b4a899;
+	padding-top: 3em;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
 
-.footer-links {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.footer-links h5 {
-	margin: 5px;
-	font-size: 18px;
-}
