@@ -95,14 +95,15 @@ a:hover {
 }
 
 /* This adds the box shadow to the entire dropdown  */
-/* .dropdown-content {
+.dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #fdfbf4;
 	min-width: 100%;
 	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+		z-index: 1;
 
-} */
+}
 
 
 /* This is just bottom but with more shadow  */
