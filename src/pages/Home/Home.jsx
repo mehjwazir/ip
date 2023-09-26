@@ -1,6 +1,6 @@
 import './Home.css';
-import Img1 from './files/4.jpeg'
-import Img2 from './files/6.jpeg'
+import Img1 from './files/8.jpg'
+import Img2 from './files/7.jpg'
 
 
 function Home() {
@@ -21,7 +21,12 @@ function Home() {
 						</div>
 						<div className='col-md-6'>
 							<div className='home-text'>
-								<p>A place to calm the senses.</p>
+								<p>
+									<span className='home-span2'>A </span>
+									<span className='home-span2'>Place</span> to 
+									<span className='home-span2'> calm </span>the
+									<span className='home-span2'> senses</span>.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -42,10 +47,9 @@ function Home() {
 					</div>
 				</section>
 			</main>
-			
+
 		</>
 	)
 }
-
 
 export default Home;
