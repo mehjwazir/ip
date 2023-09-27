@@ -60,6 +60,9 @@ function Home() {
 						
 					</div>
 				</section>
+				{/* <div className='lower-banner'>
+					<h1 className='banner-h1'>Let's Peace & Quiet Here</h1>
+				</div> */}
 			</main>
 
 		</>

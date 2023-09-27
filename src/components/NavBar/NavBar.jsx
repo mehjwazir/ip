@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SideBar from "../SideBar/SideBar";
 import './NavBar.css';
 import Img1 from './files/img1.JPG'
-import Img2 from './files/img2.JPG'
+import Img2 from './files/5.jpeg'
 import Img3 from './files/img3.jpg'
 import Img4 from './files/img4.jpg'
 
