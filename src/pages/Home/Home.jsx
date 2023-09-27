@@ -1,6 +1,7 @@
 import './Home.css';
 import Img1 from './files/10.jpeg'
 import Img2 from './files/9.jpeg'
+import Img3 from './files/7.jpeg'
 
 
 function Home() {
@@ -44,6 +45,19 @@ function Home() {
 						<div className='col-md-6'>
 							<img src={Img2} alt='' className='home-img2' />
 						</div>
+					</div>
+				</section>
+				<section className='home-section2'>
+					<div className='row'>
+						<div className='col-md-6'>
+							<img src={Img3} alt='' className='home-img2' />
+						</div>
+						<div className='col-md-6'>
+							<div className='home-text2'>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse doloribus vero neque qui, laudantium vitae. Maxime inventore rerum eius? Illo, architecto! Sapiente, consectetur consequatur esse corrupti sed in illum.</p>
+							</div>
+						</div>
+						
 					</div>
 				</section>
 			</main>
