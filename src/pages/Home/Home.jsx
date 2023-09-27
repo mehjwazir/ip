@@ -1,6 +1,6 @@
 import './Home.css';
-import Img1 from './files/8.jpg'
-import Img2 from './files/7.jpg'
+import Img1 from './files/10.jpeg'
+import Img2 from './files/9.jpeg'
 
 
 function Home() {
