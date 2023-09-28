@@ -1,4 +1,5 @@
 import './Mind.css'
+import Img1 from './files/2.png'
 
 
 
@@ -7,7 +8,14 @@ import './Mind.css'
 function Mind() {
 	return (
 		<>
-	
+			<main>
+				<section className='mind-section'>
+					<div>
+						<img src={Img1} alt="" className='mind-img1'/>
+					</div>
+				</section>
+
+			</main>
 		</>
 	)
 }
