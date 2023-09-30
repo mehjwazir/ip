@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 
+
+
+
 .mind-section {
 	display: flex;
+justify-content: center;
+}
+
+.mind-img4, .mind-img2 {
+	height: auto;
+	width: 80%;
+}
+
+.mind-div {
+	display: flex;
 	justify-content: center;
+}
+.mind-img3 {
+	width: 63%;
+}
+.mind-img5 {
+	width: 150%;
+	
 }
