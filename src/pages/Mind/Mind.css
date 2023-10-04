@@ -10,8 +10,8 @@ justify-content: center;
 }
 
 .mind-img4, .mind-img2 {
-	height: auto;
-	width: 80%;
+	height:100%;
+	width: 100%;
 }
 
 .mind-div {
@@ -19,9 +19,11 @@ justify-content: center;
 	justify-content: center;
 }
 .mind-img3 {
-	width: 63%;
+	height: 100%;
+	width: 100%;
 }
 .mind-img5 {
-	width: 150%;
+	height: 100%;
+	width: 100%;
 	
 }
