@@ -61,12 +61,12 @@ a:hover {
 
 }
 
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #fdfbf4;
     min-width: 100%;
-}
+} */
 
 
 .dropdown:hover .dropdown-content {
@@ -154,6 +154,10 @@ a:hover {
 	display: none;
 	content: hidden;
 	}
+
+
+
+
 }
 
 
@@ -170,6 +174,8 @@ a:hover {
 		border-bottom-color: transparent;
 		/* Make the hover underline transparent */
 	}
+
+	
 }
 
 

@@ -8,6 +8,7 @@ import Mind from './pages/Mind/Mind';
 import Body from './pages/Body/Body';
 import Nature from './pages/Nature/Nature';
 import Journal from './pages/Journal/Journal';
+import Post1 from "./pages/Mind/post1/Post1";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/body" element={<Body />} />
         <Route path="/nature" element={<Nature />} />
         <Route path="/journal" element={<Journal />} />
+        <Route path="/post1" element={<Post1 />} />
         </Routes>
       </div>
         <Footer />

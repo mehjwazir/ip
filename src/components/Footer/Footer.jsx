@@ -17,20 +17,20 @@ function Footer() {
 					{/* Column2 */}
 					<div className="col">
 						<h4>About</h4>
-						<ui className="list-unstyled">
+						<ul className="list-unstyled">
 							<li>Test</li>
 							<li>Test</li>
 							<li>Test</li>
-						</ui>
+						</ul>
 					</div>
 					{/* Column3 */}
 					<div className="col">
 						<h4>Wellness Club</h4>
-						<ui className="list-unstyled">
+						<ul className="list-unstyled">
 							<li>Test</li>
 							<li>Test</li>
 							<li>Test</li>
-						</ui>
+						</ul>
 					</div>
 				</div>
 				<hr />
