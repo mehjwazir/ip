@@ -2,66 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 
 
+
+
 .mind-main {
 	margin-top: 6rem;
-}
-
-.mind-section {
-	display: flex;
-justify-content: center;
-}
-
-.mind-img4, .mind-img2 {
-	height:100%;
-	width: 100%;
-}
-
-.mind-div {
-	display: flex;
-	justify-content: center;
-}
-.mind-img3 {
-	height: 100%;
-	width: 100%;
-}
-.mind-img5 {
-	height: 100%;
-	width: 100%;
-	
-}
-
-/* Mind.css */
-
-.mind-main {
 	display: flex;
 	justify-content: flex-end;
-	/* Align content to the right */
 	align-items: flex-start;
-	/* Align items to the top */
 }
 
 .large-image {
 	flex: 0 0 30%;
-	/* Adjust the width of the left column */
 	padding: 20px;
-	/* Add padding as needed */
 }
 
 .large-image img {
 	max-width: 100%;
 	height: auto;
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-}
-
-
-/* 
-.image-card-container {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-} */
+}
+
 
 .image-card {
 	width: 100%;
@@ -69,7 +31,6 @@ justify-content: center;
 	border-radius: 5px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	margin-bottom: 20px;
-	/* Add spacing between image-cards */
 }
 
 .image-card img {
