@@ -1,2 +1,42 @@
+.margin-main {
+	margin-top: 7rem;
+}
+
+.body-main {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.large-image {
+	flex: 0 0 30%;
+	padding: 20px;
+}
+
+.large-image img {
+	max-width: 100%;
+	height: auto;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
 
 
+.image-card {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.image-card img {
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.text-container {
+	padding: 10px;
+}
