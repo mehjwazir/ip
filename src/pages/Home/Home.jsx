@@ -2,7 +2,7 @@ import './Home.css';
 import Img1 from './files/1.jpg';
 import Img2 from './files/9.jpeg';
 import Img3 from './files/12.jpg';
-import Img4 from './files/13.png';
+import Img4 from './files/15.png';
 
 function Home() {
 	return (
