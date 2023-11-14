@@ -12,22 +12,6 @@ function Body() {
 
 	return (
 		<>
-			
-			<div className='image-card-container margin-main'>
-				<div className='image-card'>
-					<Link to={'/post1'}>
-						<img src={Img1} alt='' />
-					</Link>
-					<div className='text-container'>
-						<p>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
-							repudiandae nisi aperiam magnam veritatis, temporibus vel
-							maxime saepe expedita iste doloremque sed eveniet veniam rem
-							explicabo, accusamus quos. Quidem, rem.
-						</p>
-					</div>
-				</div>
-			</div>
 			<main className='body-main'>
 			
 			
