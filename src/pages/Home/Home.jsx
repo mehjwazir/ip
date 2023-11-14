@@ -2,12 +2,15 @@ import './Home.css';
 import Img1 from './files/1.jpg';
 import Img2 from './files/9.jpeg';
 import Img3 from './files/12.jpg';
-import Img4 from './files/15.png';
+// import Img4 from './files/15.png';
+import Img5 from './files/16.jpeg';
+import Img6 from './files/17.jpeg';
 
 function Home() {
 	return (
 		<>
 			<main className='home-main'>
+				<img src={Img6} alt="" className='img6'/>
 				<header className='home-header'>
 					<h1 className='home-h1' >
 						Inner Peace <span className='home-span'>&#x2015;</span> <span className='home-span'>for</span> the <br /><span className='home-span'>Mind</span> Body & <span className='home-span'>Soul</span>
@@ -31,9 +34,10 @@ function Home() {
 				<div className='home-marq'>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet minima quasi adipisci nihil? Numquam voluptatum assumenda suscipit, est recusandae nobis quas quisquam quo, dolor fugit non animi delectus velit. </p>
 				</div>
-				<div className='pic-gallery'>
-					<img src={Img4} alt="" className='test-img' />
+				<div className='div-5'>
+					<img src={Img5} alt="" className='img5-home' />
 				</div>
+			
 				<section className='home-section2'>
 					<div className='row'>
 						<div className='col-md-6 home-text2'>

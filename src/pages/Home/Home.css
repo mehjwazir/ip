@@ -1,5 +1,10 @@
 /* Your imports and font imports go here */
 
+
+.img6 {
+	width: 100%;
+	
+}
 .home-header {
 	margin-top: 8rem;
 	border-bottom: 1px solid black;
@@ -77,6 +82,14 @@ padding: 3rem;
 	justify-content: center;
 	align-items: center;
 
+}
+.div-5 {
+	display: flex;
+	justify-content: center;
+}
+
+.img5-home {
+width: 20%;
 }
 @media only screen and (max-width: 768px) {
 	.home-h1 {
