@@ -1,9 +1,15 @@
 /* Your imports and font imports go here */
 
-
+.img-6 {
+	margin-top: 5rem;
+}
 .img6 {
 	width: 100%;
 	
+}
+
+.img7-home {
+	width: 50%;
 }
 .home-header {
 	margin-top: 8rem;
