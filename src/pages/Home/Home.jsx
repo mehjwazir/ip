@@ -5,7 +5,7 @@ import Img3 from './files/12.jpg';
 // import Img4 from './files/15.png';
 import Img5 from './files/16.jpeg';
 import Img6 from './files/17.png';
-import Img7 from './files/18.png';
+import Img7 from './files/19.png';
 
 function Home() {
 	return (
