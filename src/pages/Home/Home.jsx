@@ -3,9 +3,9 @@ import Img1 from './files/1.jpg';
 import Img2 from './files/9.jpeg';
 import Img3 from './files/12.jpg';
 // import Img4 from './files/15.png';
-import Img5 from './files/16.jpeg';
+// import Img5 from './files/16.jpeg';
 import Img6 from './files/17.png';
-import Img7 from './files/19.png';
+import Img7 from './files/20.png';
 
 function Home() {
 	return (
@@ -39,7 +39,7 @@ function Home() {
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet minima quasi adipisci nihil? Numquam voluptatum assumenda suscipit, est recusandae nobis quas quisquam quo, dolor fugit non animi delectus velit. </p>
 				</div>
 				<div className='div-5'>
-					<img src={Img5} alt="" className='img5-home' />
+					{/* <img src={Img5} alt="" className='img5-home' /> */}
 					<img src={Img7} alt="" className='img7-home' />
 				</div>
 				<div className='home-marq'>
