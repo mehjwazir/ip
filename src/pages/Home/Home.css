@@ -8,9 +8,7 @@
 	
 }
 
-.img7-home {
-	width: 100%;
-}
+
 .home-header {
 	margin-top: 8rem;
 	border-bottom: 1px solid black;
@@ -90,10 +88,24 @@ padding: 3rem;
 
 }
 .div-5 {
-	display: flex;
-	justify-content: center;
+	position: relative;
 }
 
+.img7-home {
+	width: 100%;
+}
+
+.button-container {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* Adjust as needed */
+}
+
+.btn-t {
+	width: 25%;
+}
 .img5-home {
 width: 20%;
 }
