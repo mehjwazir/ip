@@ -1,13 +1,12 @@
 /* Your imports and font imports go here */
 
-.img-6 {
+.div-1 {
 	margin-top: 5rem;
 }
-.img6 {
-	width: 100%;
-	
-}
 
+.img1 {
+	width: 100%;
+}
 
 .home-header {
 	margin-top: 8rem;
@@ -58,8 +57,8 @@
 }
 
 .pic-gallery {
-margin: 3rem;
-padding: 3rem;
+	margin: 3rem;
+	padding: 3rem;
 	display: flex;
 	justify-content: center;
 
@@ -87,40 +86,80 @@ padding: 3rem;
 	align-items: center;
 
 }
-.div-5 {
-	position: relative;
+
+
+.img3-home {
+	width: 80%;
+
 }
 
-.img7-home {
-	width: 100%;
+.img8-home {
+ width: 100%;
+ object-fit: contain;
+ border-radius: 1rem;
+
+
+
 }
+
+
+
+.img-container {
+	display: flex;
+position: sticky;
+width: 90%;
+
+}
+
+.scroll-container {
+margin: 0 auto;
+/* display: grid;
+grid-auto-flow: row; */
+width: calc(180px + 5rem);
+height: 700px;
+overflow-y: auto;
+overscroll-behavior-y: contain;
+scroll-snap-type: y mandatory;
+}
+
+
+.scroll-container img {
+	width: 100%;
+	/* Adjust this to control the width of the images inside the scroll container */
+	display: block;
+	/* Ensure each image is a block element */
+	margin-bottom: 10px;
+	/* Add margin between images */
+}
+
+
+roll-container::-webkit-scrollbar {
+	width: 10px;
+
+}
+
 
 .button-container {
 	position: absolute;
 	top: 70%;
-	left: 50%;
+	left: 45%;
 	transform: translate(-50%, -50%);
-	/* Adjust as needed */
+
 }
 
 .btn-t {
-	width: 25%;
+	width: 20%;
+
 }
-.img5-home {
-width: 20%;
-}
+
 @media only screen and (max-width: 768px) {
-	.home-h1 {
-		font-size: 45px;
-	}
+ .home-h1 {
+ 	font-size: 45px;
+ }
 
-	.home-text {
-		padding: 1rem;
-		font-size: 24px;
-	}
-
-	.home-text2 {
-		padding: 1rem;
-		font-size: 24px;
-	}
-}
+ .home-text,
+ .home-text2 {
+ 	padding: 1rem;
+ 	font-size: 24px;
+ }
+ }
