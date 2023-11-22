@@ -97,9 +97,6 @@
  width: 100%;
  object-fit: contain;
  border-radius: 1rem;
-
-
-
 }
 
 
@@ -111,32 +108,27 @@ width: 90%;
 
 }
 
-.scroll-container {
+/* .scroll-container {
 margin: 0 auto;
-/* display: grid;
-grid-auto-flow: row; */
+display: grid;
+grid-auto-flow: row;
 width: calc(180px + 5rem);
-height: 700px;
+height: 900px;
 overflow-y: auto;
 overscroll-behavior-y: contain;
 scroll-snap-type: y mandatory;
-}
+} */
 
 
 .scroll-container img {
 	width: 100%;
-	/* Adjust this to control the width of the images inside the scroll container */
-	display: block;
-	/* Ensure each image is a block element */
-	margin-bottom: 10px;
-	/* Add margin between images */
 }
 
 
-roll-container::-webkit-scrollbar {
+/* .scroll-container::-webkit-scrollbar {
 	width: 10px;
 
-}
+} */
 
 
 .button-container {
@@ -162,4 +154,38 @@ roll-container::-webkit-scrollbar {
  	padding: 1rem;
  	font-size: 24px;
  }
+}
+
+/* @media only screen and (min-width: 768px) {
+.scroll-container {
+	margin: 0;
+	width: calc(180px + 5rem);
+	height: 700px !important;
+	overflow-y: auto;
+	overscroll-behavior-y: contain;
+	scroll-snap-type: y mandatory;
+}
+
  }
+
+  @media screen and (min-width: 992px) {
+	.scroll-container {
+		margin: 0 auto;
+		width: calc(180px + 5rem);
+		height: 300px !important;
+		overflow-y: auto;
+		overscroll-behavior-y: contain;
+		scroll-snap-type: y mandatory;
+	}
+ }  */
+
+ 	@media screen and (min-width: 600px) {
+			.scroll-container {
+				margin: 0 auto;
+				height: 250px !important;
+				width: calc(180px + 5rem);
+				overflow-y: auto;
+				overscroll-behavior-y: contain;
+				scroll-snap-type: y mandatory;
+			}
+	}
