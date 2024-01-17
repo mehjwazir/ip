@@ -1,17 +1,18 @@
 import './Home.css';
-import { Link } from 'react-router-dom';
-import Img1 from './files/1.png';
+// import { Link } from 'react-router-dom';
+// import Img1 from './files/1.png';
 import Img2 from './files/2.jpg';
-import Img3 from './files/3.png';
-import Img4 from './files/4.png';
-import Img5 from './files/5.png';
-import Img6 from './files/6.png';
-import Img7 from './files/7.png';
-import Img8 from './files/8.png';
-import Img9 from './files/9.png';
-import Img10 from './files/10.png';
-import Img11 from './files/11.png';
-import Img12 from './files/12.png';
+// import Img3 from './files/3.png';
+// import Img4 from './files/4.png';
+// import Img5 from './files/5.png';
+// import Img6 from './files/6.png';
+// import Img7 from './files/7.png';
+// import Img8 from './files/8.png';
+// import Img9 from './files/9.png';
+// import Img10 from './files/10.png';
+// import Img11 from './files/11.png';
+// import Img12 from './files/12.png';
+import Img13 from './files/13.jpeg';
 import Img99 from './files/99.jpeg';
 import Img100 from './files/100.jpg';
 
@@ -19,14 +20,15 @@ function Home() {
 	return (
 		<>
 			<main className='home-main'>
-				<div className='div-1'>
+				{/* <div className='div-1'>
 					<img src={Img1} alt="" className='img1' />
-				</div>
+				</div> */}
 				<header className='home-header'>
 					<h1 className='home-h1' >
 						Inner Peace <span className='home-span'>&#x2015;</span> <span className='home-span'>for</span> the <br /><span className='home-span'>Mind</span> Body & <span className='home-span'>Soul</span>
 					</h1>
 				</header>
+				
 				<section className='home-section1'>
 					<div className='row'>
 						<div className='col-md-6'>
@@ -46,8 +48,10 @@ function Home() {
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet minima quasi adipisci nihil? Numquam voluptatum assumenda suscipit, est recusandae nobis quas quisquam quo, dolor fugit non animi delectus velit. </p>
 				</div>
 
-
-				<div className='img-container' >
+				<div className='div-13'>
+					<img src={Img13} alt="" />
+				</div>
+				{/* <div className='img-container' >
 					<div>
 						<img src={Img3} alt="" className='img3-home' />
 						<div className='button-container'>
@@ -75,7 +79,7 @@ function Home() {
 						<img src={Img8} alt="" className='img8-home' />
 						<img src={Img8} alt="" className='img8-home' />
 					</div>
-				</div>
+				</div> */}
 				<div className='home-marq'>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet minima quasi adipisci nihil? Numquam voluptatum assumenda suscipit, est recusandae nobis quas quisquam quo, dolor fugit non animi delectus velit. </p>
 				</div>
