@@ -7,7 +7,6 @@ import Home from './pages/Home/Home';
 import Mind from './pages/Mind/Mind';
 import Body from './pages/Body/Body';
 import Nature from './pages/Nature/Nature';
-import Journal from './pages/Journal/Journal';
 import Post1 from "./pages/Mind/post1/Post1";
 
 
@@ -21,7 +20,6 @@ function App() {
         <Route path="/mind" element={<Mind />} />
         <Route path="/body" element={<Body />} />
         <Route path="/nature" element={<Nature />} />
-        <Route path="/journal" element={<Journal />} />
         <Route path="/post1" element={<Post1 />} />
         </Routes>
       </div>
