@@ -30,9 +30,6 @@ const SideBar = () => {
 				<Link to="/nature" onClick={toggleMenu}>
 				Nature
 				</Link>
-				{/* <Link to="/journal" onClick={toggleMenu}>
-				Journal
-				</Link> */}
 				<button className="close-btn" onClick={toggleMenu}>
 					X
 				</button>
